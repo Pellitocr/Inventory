@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER AND NAVBAR STYLING*/
+header {
+  display: flex;
+  align-items: center;
+	width:100%;
+  background-color: black;
+  left:0;
+  right:0;
+	justify-content: space-between;
+}
+
+/*LOGO*/
+.logo{
+  cursor: pointer;
+  width: 250px;
+  height: 120px;
+  margin-top:10px;
+  margin-bottom:10px;
+	padding-left:25px;
+}
+
+/*LINKS*/
+.inventory_links ul{
+  list-style:none;
+}
+
+.inventory_links li {
+  display: inline-block;
+  padding: 0px 20px;
+	margin-right:20px;
+}
+
+.inventory_links li a:hover{
+  color: #0088a9
+}
+
+.inventory_links li, a {
+  font-weight: 500;
+  font-size:20px;
+  color: white;
+  text-decoration: none;
+}
+
+hr.break{
+  border: 6px solid;
+  color:white;
+}
+
+h2 { text-align: center; }
+
+.inventory_data, .update_data{
+  margin-left:175px;
+  font-size:38px;
+}
+
+/*BODY COLORS*/
+.add_form{
+  background-color: #ff4d4d;
+}
+
+.add_data_header{
+  font-size:44px;
+  color:white;
+}
+
+/*TABLE STYLING*/
+table {
+  border-collapse: collapse;
+  width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+/*table row hover colors*/
+tr:hover {
+	background-color: #1a1a1a;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	border: 1px solid white;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+	margin: auto;
+	width: 9%;
+}
+
+th {
+	padding: 12px;
+	text-align: left;
+	background-color: #cc0000;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+/*font typeface*/
+h1, h2, h3, table, td, form, a, input{
+	font-family: Helvetica, sans-serif;
+}
+
+/*FORM STYLING*/
+.form {
+	display:block;
+	text-align:center;
+}
+
+form {
+	width: 25%;
+	margin-top:15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-right:50px;
+	display: inline-block;
+}
+
+/*Labels for input fields, separate class just in case same method/different method is used elsewhere*/
+.form_labels {
+	text-align:left;
+	font-size:34px;
+	padding: 5px 5px 5px 0;
+	text-shadow: 2px 2px 4px #000000;
+	color:white;
+	margin-top:10px;
+	margin-left:15px;
+}
+
+/*input fields style*/
+input, select {
+  height: 32px;
+  margin-top: 10px;
+  padding: 2px;
+  width:400px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+	
+
+/*submit button*/
+.submit {
+font-weight: bold;
+color: white;
+border-radius: 5px;
+padding: 10px 26px;
+background-color:black;
+}
+
+/*submit button hover*/
+.submit:hover {
+  background-color: white;
+  color:black;
+}
+
+/*table row color alternation*/
+tr:nth-child(odd) {
+    background-color: #d9d9d9;
+}
+
+.colorsito {
+	color: blue;
+}
